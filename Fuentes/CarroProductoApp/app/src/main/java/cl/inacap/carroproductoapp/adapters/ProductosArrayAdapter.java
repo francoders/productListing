@@ -38,7 +38,7 @@ public class ProductosArrayAdapter extends ArrayAdapter<Producto> {
         Producto actual = productos.get(position);
         nombreTv.setText(actual.getNombre());
         Picasso.get().load(actual.getFoto())
-                .resize(300, 300)
+                .resize(300, 300 )
                 .centerCrop()
                 .into(imageProd);
         return fila;
