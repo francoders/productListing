@@ -10,11 +10,50 @@
 
     <TextView
         android:id="@+id/nombreProdTxt"
-        android:gravity="center"
-        android:text="Hola Mundo"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/titulo_app_size"
+        android:layout_marginTop="@dimen/margin_top_prod"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="wrap_content">
     </TextView>
+
+    <ImageView
+        android:layout_marginTop="@dimen/margin_top_prod"
+        android:id="@+id/image_prod_view"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageView>
+    
+    <TextView
+        android:id="@+id/desc_prod_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_top_prod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:textSize="@dimen/titulo_app_size"
+            android:text="Precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:textSize="@dimen/titulo_app_size"
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/precio_prod_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+
 
 </LinearLayout>

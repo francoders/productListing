@@ -5,4 +5,5 @@
     <dimen name="separador">40dp</dimen>
     <dimen name="Margin_left_producto">30dp</dimen>
     <dimen name="paddingTolbar">10dp</dimen>
+    <dimen name="margin_top_prod">15dp</dimen>
 </resources>

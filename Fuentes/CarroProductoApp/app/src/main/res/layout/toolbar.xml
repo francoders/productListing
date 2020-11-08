@@ -21,6 +21,7 @@
             android:layout_height="@dimen/imagenLogo">
         </ImageView>
         <TextView
+            android:id="@+id/titulo_toolbar"
             android:text="SHOPPING"
             android:textSize="@dimen/titulo_app_size"
             android:textStyle="bold"
