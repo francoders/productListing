@@ -11,7 +11,7 @@
     <TextView
         android:id="@+id/nombreProdTxt"
         android:gravity="center_horizontal"
-        android:textSize="@dimen/titulo_app_size"
+        android:textSize="30dp"
         android:layout_marginTop="@dimen/margin_top_prod"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -27,6 +27,7 @@
     
     <TextView
         android:id="@+id/desc_prod_view"
+        android:gravity="center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </TextView>
@@ -38,16 +39,18 @@
         android:orientation="horizontal">
         <TextView
             android:layout_weight="1"
-            android:textSize="@dimen/titulo_app_size"
+            android:textSize="30dp"
             android:text="Precio"
+            android:gravity="center_horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         </TextView>
 
         <TextView
-            android:textSize="@dimen/titulo_app_size"
+            android:textSize="30dp"
             android:layout_weight="1"
-            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorValor"
             android:id="@+id/precio_prod_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">

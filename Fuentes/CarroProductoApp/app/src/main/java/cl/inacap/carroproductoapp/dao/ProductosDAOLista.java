@@ -15,28 +15,59 @@ public class ProductosDAOLista implements ProductosDAO{
     //1. Constructor de la clase sebe ser privado
     private ProductosDAOLista(){
         Producto p = new Producto();
-        p.setNombre("Coca-Cola Zero");
+        p.setNombre("Leche condensada Nestle");
         p.setDescripcion("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s");
         p.setPrecio(1000);
-        p.setFoto("https://img2.freepng.es/20180629/ekc/kisspng-fizzy-drinks-fanta-coca-cola-itubana-cola-zero-5b363842f378d9.2629241315302800029973.jpg");
+        p.setFoto("https://tienda-autorizada.com/cdn-cgi/image/f=auto,fit=scale-down,width=550,height=550,quality=75/https://tienda-autorizada.com/image/catalog/A-Prooductos%203.0/Procura/MSCM0168-2.png");
         productos.add(p);
-        p = new Producto();
-        p.setNombre("Fanta Naranja");
-        p.setDescripcion("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s");
-        p.setPrecio(950);
-        p.setFoto("https://e7.pngegg.com/pngimages/629/634/png-clipart-fanta-fizzy-drinks-coca-cola-juice-appletiser-guarana-antartica-food-orange.png");
-        productos.add(p);
+
         p = new Producto();
         p.setNombre("Escudo Silver");
         p.setDescripcion("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s");
         p.setPrecio(750);
         p.setFoto("https://i2.wp.com/www.casagamovi.cl/wp-content/uploads/2020/08/escudo-silver-350-ml.png?fit=1000%2C1000&ssl=1");
         productos.add(p);
+
         p = new Producto();
-        p.setNombre("Monster Energy");
+        p.setNombre("Coco Rallado Gourmet");
         p.setDescripcion("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s");
         p.setPrecio(1100);
-        p.setFoto("https://img2.freepng.es/20180613/ivv/kisspng-monster-energy-energy-drink-red-bull-fizzy-drinks-monster-energy-drink-5b20d0305cb584.2630228815288771043798.jpg");
+        p.setFoto("https://jumbo.vteximg.com.br/arquivos/ids/412139/Coco-rallado-blanco-sobre-100-g.jpg?v=637469589556870000");
+        productos.add(p);
+
+        p = new Producto();
+        p.setNombre("Mayonesa Hellmann's");
+        p.setDescripcion("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s");
+        p.setPrecio(1100);
+        p.setFoto("https://dojiw2m9tvv09.cloudfront.net/24510/product/mayonesahellmanns1864573.png");
+        productos.add(p);
+
+        p = new Producto();
+        p.setNombre("Galleta Toddy");
+        p.setDescripcion("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s");
+        p.setPrecio(950);
+        p.setFoto("https://jumbo.vteximg.com.br/arquivos/ids/409887/Galletas-chispas-1425-g.jpg?v=637469368232630000");
+        productos.add(p);
+
+        p = new Producto();
+        p.setNombre("Pringles");
+        p.setDescripcion("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s");
+        p.setPrecio(950);
+        p.setFoto("https://supermaxsa.com.ar/wp-content/uploads/2020/05/11162_optimized.png");
+        productos.add(p);
+
+        p = new Producto();
+        p.setNombre("Fanta Naranja");
+        p.setDescripcion("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s");
+        p.setPrecio(950);
+        p.setFoto("https://pngimg.com/uploads/fanta/fanta_PNG39.png");
+        productos.add(p);
+
+        p = new Producto();
+        p.setNombre("Nutella");
+        p.setDescripcion("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s");
+        p.setPrecio(1100);
+        p.setFoto("http://assets.stickpng.com/thumbs/589eef9264b351149f22a88e.png");
         productos.add(p);
     }
 
